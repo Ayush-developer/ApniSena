@@ -1,0 +1,31 @@
+.btn {
+    font-size: 2.6rem;
+    font-family: 'Abel', sans-serif;
+
+    text-transform: uppercase;
+    width: 21.5rem;
+    padding: 14px 24px;
+    background: #f9f9ff;
+    border: 1px solid #f9f9ff;
+   
+    font-weight: 600;
+    border-radius: 4px;
+    -webkit-transition: background 800ms, color 800ms, border 800ms;
+    transition: background 800ms, color 800ms, border 800ms;
+    
+    color: $blue-color;
+    &-1{
+        margin-top: 2rem;
+    }
+    &-2{
+        margin-top: 0;
+    }
+  }
+  
+  .btn:hover {
+    background: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+  }
+
+

@@ -1,0 +1,14 @@
+
+.main {
+  width: 100%;
+  min-height: 100vh;
+  background: url("./img/banner-bg.jpg") no-repeat center/cover;
+  background-size:cover;
+  background-position: top;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 70%);
+}
+
+.header{
+
+  margin-top:15rem;
+}

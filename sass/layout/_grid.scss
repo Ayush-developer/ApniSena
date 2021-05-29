@@ -1,0 +1,110 @@
+.row{
+    max-width:120rem;
+    
+    margin: 0 auto;
+    @mixin clearfix{
+        &::after{
+            content: "";
+            clear: both;
+            display: table;
+        }
+    }
+   
+    padding-top: 3.5rem;
+    .col-1-of-5{
+        width:calc((100% - #{$gutter-horizontal}) / 7);
+        
+        float: left;
+
+        
+
+
+
+        &:not(:last-child){
+            margin-right: $gutter-horizontal;
+           
+            
+        }
+        &:last-child{
+            margin-left: 110rem;
+        }
+    }
+}
+.row_1{
+    max-width:120rem;
+    
+    margin: 0 auto;
+    
+    @mixin clearfix{
+        &::after{
+            content: "";
+            clear: both;
+            display: table;
+        }
+    }
+    .col-1-of-2{
+        width:calc((100% - #{$gutter-horizontal-2}) / 2);
+        
+        float: left;
+
+
+        &:not(:last-child){
+            margin-right: $gutter-horizontal-2;
+        }
+    }
+}
+.title{
+    max-width:130rem;
+    
+    // margin: 0 auto;
+    margin: top 0; ;
+    margin-bottom: 30rem;
+    margin-left: auto;
+    margin-right: auto;
+   
+    @mixin clearfix{
+        &::after{
+            content: "";
+            clear: both;
+            display: table;
+        }
+    }
+    margin-top: 10rem;
+    
+    .col-1-of-3{
+        width:calc((100% - #{$gutter-horizontal}) / 2);
+        
+        float: left;
+
+        &:not(:last-child){
+            margin-right: $gutter-horizontal;
+        }
+    }
+}
+.tilde{
+    max-width:110rem;
+    
+    margin: 0 auto;
+   
+    @mixin clearfix{
+        &::after{
+            content: "";
+            clear: both;
+            display: table;
+        }
+    }
+    
+
+    
+    .col-1-of-4{
+        width:calc((100% - (2*#{$gutter-horizontal-3})) / 3);
+        
+        float: left;
+    
+    
+
+        &:not(:last-child){
+            margin-right: $gutter-horizontal-3;
+        }
+    }
+}

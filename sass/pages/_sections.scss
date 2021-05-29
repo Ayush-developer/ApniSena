@@ -1,0 +1,102 @@
+.expertise{
+    background-color:$grey-background;
+    padding:40rem 0;
+    margin-top: -40rem;
+
+
+}
+.heading-secondary{
+    text-transform: upercase;
+    font-size: 3.6rem;
+    font-weight: 100;
+    display: inline-block;
+    background-image: linear-gradient(to right,$blue-color,#d496ff);
+    -webkit-background-clip: text;
+    color: transparent;
+    letter-spacing: 0.3rem;
+    transition: all 0.5s;
+    &:hover{
+        transform: skewY(2deg) skewX(15deg) scale(1.15);
+    }
+
+}
+.utility-heading{
+    text-align: center;
+}
+.heading-secondary-2{
+    text-transform: upercase;
+    font-size: 1.6rem;
+    font-weight: 200;
+    display: inline-block;
+    background-image: linear-gradient(to right,#d496ff,$blue-color);
+    -webkit-background-clip: text;
+    color: transparent;
+    letter-spacing: 0.3rem;
+    transition: all 0.5s;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    &:hover{
+        transform: scale(1.15);
+    }
+
+}
+.notes{
+    background-image: linear-gradient(to right,$blue-color,#d496ff),url(../img/nat-4.jpg);
+    background-size: cover;
+    padding-top:10rem;
+    padding-bottom: 45rem;
+    margin-top: -15rem;
+    transform: skewY(-7deg);
+    &_tilde{
+        transform: skewY(7deg);
+    
+    }
+    &_head{
+        transform: skewY(7deg);
+    }
+}
+.heading-new{
+    text-transform: uppercase;
+    font-size: 3.6rem;
+    color:$color-white;
+    font-weight: 200;
+    margin-bottom: 10rem;
+    margin-top: 0;
+    
+
+
+}
+.head{
+    text-align: center;
+    margin: 0;
+}
+
+//notes
+
+.box{
+    width: 100%;
+    
+    background-color: rgba($color-white,0.75);
+    font-size: 1.5rem;
+    padding: 2.5rem 0;
+    text-align: center;
+    border-radius: 3px;
+    transition:  all 0.5s;
+    &_icon{
+        font-size: 5rem;
+        padding-bottom: .6rem;
+    }
+    &_text{
+        font-weight: 100;
+        padding: 0 2rem
+    }
+    &_link{
+        display: inline-block;
+        background-image:linear-gradient(to right,#d496ff,$blue-color);
+        margin-top: 1rem;
+        padding:1rem
+    }
+    &:hover{
+        transform: translateY(1rem);
+    }
+}
